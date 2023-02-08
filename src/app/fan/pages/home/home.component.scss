@@ -1,0 +1,33 @@
+h1 {
+    padding: 0 20vw 10px;
+    font-weight: 400;
+    font-size: 3rem;
+}
+h2 {
+    font-weight: 400;
+}
+
+
+div {
+    display: inline-block;
+    margin: 0 10vw;
+}
+div:last-child {
+    position: absolute;
+    right: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #c2185b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 3vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
