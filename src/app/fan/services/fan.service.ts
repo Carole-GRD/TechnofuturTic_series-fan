@@ -7,8 +7,10 @@ import { Fan } from '../types/Fan';
 export class FanService {
 
   private _fanList: Fan[] = [
-    { name: 'Pierre', birthDate: new Date("1996-05-13"), series: ['The Boys', 'One piece', 'Trigun'] },
-    { name: 'Ryan', birthDate: new Date("1998-04-13"), series: ['The Boys', 'One piece', 'Naruto'] },
+    // { name: 'Pierre', birthDate: new Date("1996-05-13"), series: ['The Boys', 'One piece', 'Trigun'] },
+    { name: 'Pierre', birthDate: new Date(1996, 5, 13), series: ['The Boys', 'One piece', 'Trigun'] },
+    // { name: 'Ryan', birthDate: new Date("1998-04-13"), series: ['The Boys', 'One piece', 'Naruto'] },
+    { name: 'Ryan', birthDate: new Date(1998, 4, 13), series: ['The Boys', 'One piece', 'Naruto'] },
   ];
 
   constructor() { }
