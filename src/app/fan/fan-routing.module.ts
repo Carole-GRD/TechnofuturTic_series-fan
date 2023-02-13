@@ -15,10 +15,11 @@ import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'fan', component: FanListComponent, children: [
-    { path: 'fan/:name', component: FanShowComponent }
-  ] },
-
+  { path: 'fan', component: FanListComponent },
+  { path: 'fan/:name', component: FanShowComponent }
+  // { path: 'fan', component: FanListComponent, children: [
+  //   { path: 'fan/:name', component: FanShowComponent }
+  // ] },
 ];
 
 

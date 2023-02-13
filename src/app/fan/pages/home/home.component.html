@@ -3,16 +3,18 @@
 
 <section>
     <div>
-        <h2>Fan List</h2>
+        <h2>{{ nameParam ? '' : 'Fan List'}}</h2>
     </div>
     <div>
-        <button type="button">ADD FAN</button>
+        <button type="button">
+            {{ nameParam ? 'UPDATE FAN' : 'ADD FAN'}}
+        </button>
     </div>
 </section>
-
+<!-- 
 <section>
     <app-fan-list />
-</section>
+</section> -->
 
 
 

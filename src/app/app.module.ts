@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-// import { FanModule } from './fan/fan.module';
+import { FanModule } from './fan/fan.module';
 // import { HomeComponent } from './fan/pages/home/home.component';
 // import { FanListComponent } from './fan/pages/fan-list/fan-list.component';
 // import { FanShowComponent } from './fan/pages/fan-show/fan-show.component';
@@ -20,7 +20,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // FanModule
+    FanModule
     // RouterModule
   ],
   // exports: [

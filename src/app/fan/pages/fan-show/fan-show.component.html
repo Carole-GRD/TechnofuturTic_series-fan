@@ -1,9 +1,12 @@
+<app-home />
 
 <!-- 
     Affichage des séries préférées (détails)
  -->
 
-<p>{{ fan?.name }}</p>
+<h2>{{ fan?.name }}</h2>
+<p>{{ fan?.birthDate | date: 'dd-MM-yyyy' }}</p>
+<h2>Series</h2>
 
 <div *ngFor="let serie of fan?.series">
     {{ serie }}
